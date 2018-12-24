@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "rpi_gpu_fft", "gpu_fft\rpi_gpu_fft.vbproj", "{D0463DDA-A723-43B2-BE0F-E6A1798DF7BF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestApplication", "TestApplication\TestApplication.vbproj", "{9975215B-1B1B-48EE-93C7-F2BB5827DE91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0463DDA-A723-43B2-BE0F-E6A1798DF7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0463DDA-A723-43B2-BE0F-E6A1798DF7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0463DDA-A723-43B2-BE0F-E6A1798DF7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0463DDA-A723-43B2-BE0F-E6A1798DF7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9975215B-1B1B-48EE-93C7-F2BB5827DE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9975215B-1B1B-48EE-93C7-F2BB5827DE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9975215B-1B1B-48EE-93C7-F2BB5827DE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9975215B-1B1B-48EE-93C7-F2BB5827DE91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D064AF6-B74C-41EA-9C9A-9180F959A7E4}
+	EndGlobalSection
+EndGlobal
